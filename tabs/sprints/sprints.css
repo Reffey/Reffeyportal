@@ -1,0 +1,111 @@
+.dragging{
+	
+    width: 25% !important;
+	
+	}
+
+.list-inline {
+    display: -moz-inline-box !important;
+	display: inline-block;
+    min-height: 204px;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+	width:100%;
+	padding:0px !important;
+	white-space: nowrap; 
+	
+}
+.list-inline > li{
+	position: inherit;
+	display:inline-table !important;
+				
+				
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	white-space:normal;
+	
+				}
+.list-inline li:after{margin:10px 10px;}
+
+
+.droppable_bl0 ul{
+	background-color:#0CF;
+	
+	}
+
+.droppable_bl0 > li{
+	display:list-item;
+	border:solid thin #F30;
+	margin-top:2px;
+	width:100% ;
+    display: compact;
+	}
+.teamlabel{
+	margin-bottom:10px;
+	}
+
+.listbacklog{
+	height:30px;
+	width:150px !important;
+	
+	border:thin solid #6FF;
+	margin-left:2px;
+}
+	 
+	
+	
+/*.listbacklog > li{
+	height:30px;
+	width:150px !important;
+	
+	border:thin solid #6FF;
+	margin-left:2px;
+	}*/
+
+.panel-height{ 
+    height:400px;
+	overflow-x:scroll;
+     overflow-y:none;
+	}
+
+.list-sprint1 {
+	overflow: scroll;
+   min-height:267px ;
+
+ 
+}
+
+.list-sprint2 {
+	display: inline-block;
+    border: thin solid #cce8cc;
+    text-align: center;
+    width:33%;
+}
+
+.status2{ 
+height:50px;}
+
+.dragging
+{
+    visibility:hidden;
+}
+
+.backlog-drop{
+	color:#003;
+	width: 175px !important;
+	height: 100%;
+	border:solid thin;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+	}
+.backlog-drop > li {
+	color:#003;
+	width: 150px !important;
+	height: 7%;
+	border:solid thin;
+	margin-top:5px;
+	margin-bottom:2px;
+	
+	}
